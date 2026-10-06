@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>AI modely</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+    <style>
+
+        body {
+            background-color: #111827;
+            color: white;
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+        }
+
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: #1e293b;
+        }
+
+
+        header h1 {
+            font-family: "Roboto Slab", serif;
+            font-size: 45px;
+        }
+
+
+        section {
+            width: 80%;
+            margin: 40px auto;
+        }
+
+
+        .ai {
+            background-color: #1e293b;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid #334155;
+            min-height: 220px;
+            overflow: hidden;
+        }
+
+
+        .ai img {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            float: left;
+            margin-right: 30px;
+            background-color: white;
+            border-radius: 15px;
+            padding: 10px;
+        }
+
+
+        .ai h2 {
+            font-family: "Roboto Slab", serif;
+            font-size: 30px;
+        }
+
+
+        .ai p {
+            line-height: 1.6;
+        }
+
+
+        ul {
+            line-height: 1.8;
+        }
+
+
+        .interesting {
+            background-color: #0f172a;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 10px;
+            font-family: "Roboto Slab", serif;
+        }
+
+
+        .users {
+            font-weight: bold;
+        }
+
+
+        footer {
+            text-align: center;
+            background-color: #0f172a;
+            padding: 30px 20px;
+            margin-top: 50px;
+        }
+
+
+        footer a {
+            color: #60a5fa;
+        }
+
+
+        .icon {
+            margin-right: 8px;
+        }
+
+
+        /* TABLET */
+
+        @media (max-width: 900px) {
+
+            section {
+                width: 90%;
+            }
+
+
+            header h1 {
+                font-size: 38px;
+            }
+
+
+            .ai {
+                padding: 25px;
+            }
+
+
+            .ai img {
+                width: 120px;
+                height: 120px;
+                margin-right: 20px;
+            }
+
+
+            .ai h2 {
+                font-size: 27px;
+            }
+
+        }
+
+
+        /* MOBIL */
+
+        @media (max-width: 600px) {
+
+            header {
+                padding: 35px 15px;
+            }
+
+
+            header h1 {
+                font-size: 32px;
+            }
+
+
+            header p {
+                font-size: 14px;
+            }
+
+
+            section {
+                width: 90%;
+                margin: 30px auto;
+            }
+
+
+            section h2 {
+                font-size: 24px;
+            }
+
+
+            .ai {
+                padding: 20px;
+                margin-bottom: 20px;
+                min-height: 0;
+            }
+
+
+            .ai img {
+                float: none;
+                display: block;
+                width: 120px;
+                height: 120px;
+                margin: 0 auto 20px auto;
+            }
+
+
+            .ai h2 {
+                font-size: 25px;
+                text-align: center;
+            }
+
+
+            .ai p {
+                font-size: 14px;
+            }
+
+
+            .ai h3 {
+                font-size: 18px;
+            }
+
+
+            ul {
+                padding-left: 25px;
+                font-size: 14px;
+            }
+
+
+            .interesting {
+                font-size: 13px;
+            }
+
+
+            footer {
+                padding: 25px 15px;
+            }
+
+
+            footer p {
+                font-size: 13px;
+            }
+
+        }
+
+
+        /* VELMI MALÉ MOBILY */
+
+        @media (max-width: 400px) {
+
+            header h1 {
+                font-size: 27px;
+            }
+
+
+            section {
+                width: 92%;
+            }
+
+
+            .ai {
+                padding: 15px;
+            }
+
+
+            .ai img {
+                width: 100px;
+                height: 100px;
+            }
+
+
+            .ai h2 {
+                font-size: 22px;
+            }
+
+
+            .ai p {
+                font-size: 13px;
+            }
+
+
+            ul {
+                font-size: 13px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <header>
+
+        <h1>
+            <i class="fa-solid fa-robot"></i>
+            AI modely
+        </h1>
+
+        <p>
+            Přehled nejznámějších modelů umělé inteligence
+            a jejich využití.
+        </p>
+
+    </header>
+
+
+    <section>
+
+        <h2>
+            <i class="fa-solid fa-microchip"></i>
+            Nejznámější AI modely
+        </h2>
+
+        <p>
+            Existuje mnoho různých AI modelů. Každý z nich může být
+            vhodný pro trochu jiný typ práce.
+        </p>
+
+
+        <div class="ai">
+
+            <img
+                src="https://www.internetmatters.org/wp-content/uploads/2025/06/Chat-GPT-logo.webp"
+                alt="Logo ChatGPT"
+            >
+
+            <h2>
+                <i class="fa-solid fa-comments"></i>
+                ChatGPT
+            </h2>
+
+            <p>
+                ChatGPT je AI vytvořená společností OpenAI.
+                Může pomáhat například s učením, programováním,
+                psaním textů nebo odpovídáním na otázky.
+            </p>
+
+            <p class="users">
+                <i class="fa-solid fa-users"></i>
+                Přibližně 440 milionů denních uživatelů
+            </p>
+
+            <h3>Hodí se hlavně na:</h3>
+
+            <ul>
+                <li>učení a vysvětlování</li>
+                <li>programování</li>
+                <li>psaní textů</li>
+                <li>běžné otázky</li>
+            </ul>
+
+            <p class="interesting">
+                <i class="fa-solid fa-lightbulb"></i>
+                Zajímavost: ChatGPT se používá pro mnoho různých
+                úkolů od psaní textů až po pomoc s programováním.
+            </p>
+
+            <p>
+                <a href="https://chatgpt.com/">Navštívit ChatGPT</a>
+            </p>
+
+        </div>
+
+
+        <div class="ai">
+
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZGsGEqmOhkMKEN-rIJkehPeVTJ_IUpbSZUJYHiVfhMUaonWqZIqSPqdeu&s=10"
+                alt="Logo Claude"
+            >
+
+            <h2>
+                <i class="fa-solid fa-brain"></i>
+                Claude
+            </h2>
+
+            <p>
+                Claude je AI vytvořená společností Anthropic.
+                Je známý například prací s texty, dokumenty
+                a programováním.
+            </p>
+
+            <p class="users">
+                <i class="fa-solid fa-users"></i>
+                Přibližně 18 milionů denních uživatelů
+            </p>
+
+            <h3>Hodí se hlavně na:</h3>
+
+            <ul>
+                <li>práci s dlouhými texty</li>
+                <li>analýzu dokumentů</li>
+                <li>programování</li>
+                <li>psaní textů</li>
+            </ul>
+
+            <p class="interesting">
+                <i class="fa-solid fa-lightbulb"></i>
+                Zajímavost: Claude je navržený tak, aby dokázal
+                pracovat s velkým množstvím textu v jedné konverzaci.
+            </p>
+
+            <p>
+                <a href="https://claude.ai/">Navštívit Claude</a>
+            </p>
+
+        </div>
+
+
+        <div class="ai">
+
+            <img
+                src="https://lh3.googleusercontent.com/gUpLFMJDMJFTbD7UTr9iyUt1dvr7AKDLzuHFGs2uABqJ_Li-hVZZRU7vrRpPFALfoXBbcPoMIeWt_nWafrP8dj6ipTEfTW7N6GcNcQ=e365-pa-nu-s0"
+                alt="Logo Google Gemini"
+            >
+
+            <h2>
+                <i class="fa-solid fa-star"></i>
+                Google Gemini
+            </h2>
+
+            <p>
+                Gemini je AI vytvořená společností Google.
+                Je propojená s některými službami Googlu a umí
+                pracovat například s textem, obrázky a dalšími typy obsahu.
+            </p>
+
+            <p class="users">
+                <i class="fa-solid fa-users"></i>
+                Přibližně 118 milionů denních uživatelů
+            </p>
+
+            <h3>Hodí se hlavně na:</h3>
+
+            <ul>
+                <li>běžné otázky</li>
+                <li>práci s textem a obrázky</li>
+                <li>vyhledávání a získávání informací</li>
+                <li>práci se službami Google</li>
+            </ul>
+
+            <p class="interesting">
+                <i class="fa-solid fa-lightbulb"></i>
+                Zajímavost: Gemini je propojený s ekosystémem
+                služeb Google a dokáže pracovat s různými typy obsahu.
+            </p>
+
+            <p>
+                <a href="https://gemini.google.com/">Navštívit Gemini</a>
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <h2>
+            <i class="fa-solid fa-circle-info"></i>
+            Závěr
+        </h2>
+
+        <p>
+            Každý AI model má své výhody a hodí se na jiné úkoly.
+            Výběr modelu proto záleží hlavně na tom,
+            k čemu ho chceme používat.
+        </p>
+
+    </section>
+
+
+    <footer>
+
+        <h2>Použitá AI</h2>
+
+        <p>
+            Tato stránka byla vytvořena s pomocí ChatGPT
+            (model GPT-5.6 Luna).
+        </p>
+
+        <p>
+            <a href="https://chatgpt.com/c/6ab23488-537c-83eb-b358-e75c23d892dc">
+                Odkaz na konverzaci s ChatGPT
+            </a>
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
+```
